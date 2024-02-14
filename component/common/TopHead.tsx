@@ -1,8 +1,7 @@
 import Head from "next/head";
-import {NextPage} from "next";
 
 
-const TopHead: NextPage = () => {
+function TopHead(){
     return(
 
         <Head>

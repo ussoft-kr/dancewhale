@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -15,7 +16,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -40,4 +40,69 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--basic-dark-color) !important;
+}
+
+.notosanskr * {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BinggraeSamanco-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/BinggraeSamanco-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bsb {
+  font-family: 'BinggraeSamanco-Bold', sans-serif;
+}
+
+
+.sult {
+  font-family: 'SUIT', sans-serif;
+}
+
+ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+:is(a, h1, h2, h3, h4, h5, h6, td, th, li, span, strong, dl, dd, div, section, button, label, input, textarea) {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #333;
+}
+
+
+:root {
+  --basic-dark-color : #222;
+  --basic-thin-color : #555;
+  --basic-personal-color : #123896;
+  --basic-white-color : #fff;
+
+  --font-size-12 : 12px;
+  --font-size-13 : 13px;
+  --font-size-14 : 14px;
+  --font-size-15 : 15px;
+  --font-size-16 : 16px;
+  --font-size-17 : 17px;
+  --font-size-18 : 18px;
+  --font-size-19 : 19px;
+  --font-size-20 : 20px;
+
+  --font-weight-normal : normal;
+  --font-weight-bold : bold;
+
 }

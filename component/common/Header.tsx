@@ -4,8 +4,8 @@ import Link from "next/link";
 
 function Header(){
     return(
-        <header>
-            <aside>
+        <header className={styles.header}>
+            <aside className={styles.aside}>
                 <div className={styles.LogoBox}>
                     <Link href={'/'}>
                     <Image src={'/main/logo.png'} alt={'logo-img'} />
@@ -40,7 +40,32 @@ function Header(){
                         <span className={'img-span'}>
                             <Image src={'/main/left_real_time.svg'} alt={'main-icon'} />
                         </span>
+                        <span>실시간 예약</span>
                     </Button>
+                </div>
+                <div className={styles.InfoBox}>
+                    <ul>
+                        <li>
+                            <Link href={'#'}>
+                            <span className={styles.ImgSpan}>
+                                <Image src={'/main/left_tel.svg'} alt={'main-icon'}/>
+                            </span>
+                                <span className={styles.TxtSpan}>
+                                010.5639.7259
+                            </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href={'#'}>
+                            <span className={styles.ImgSpan}>
+                                <Image src={'/main/left_account.svg'} alt={'main-icon'}/>
+                            </span>
+                                <span className={styles.TxtSpan}>
+                                농협 302-0904-0213-11<br />(예금주 : 석명신)
+                            </span>
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </aside>
         </header>

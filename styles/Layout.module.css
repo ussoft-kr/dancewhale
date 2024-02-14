@@ -1,2 +1,100 @@
 @charset "utf-8";
 
+
+.header {
+    height: 100%;
+}
+
+.aside {
+    max-width: 380px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    height: 100%;
+    background-color: var(--basic-white-color);
+    padding:90px 65px;
+}
+
+.header .MenuBox {
+    margin-top:130px;
+}
+
+.header .MenuBox ul li a {
+    font-size:var(--font-size-18);
+    color: var(--basic-dark-color);
+    display: block;
+    transition: all 0.2s ease-in;
+}
+
+.header .MenuBox ul li a:hover {
+    color: var(--basic-personal-color) !important;
+}
+
+.header .MenuBox ul li {
+    margin-bottom: 35px;
+}
+
+.header .MenuBox ul li:last-child {
+    margin-bottom: 0;
+}
+
+.ContentWrap {
+    padding-left: 390px;
+    width:100%;
+}
+
+.header .BookBox a {
+    background:none !important;
+    border:0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+}
+
+.header .BookBox a img {
+    width:20px;
+    height: 20px;
+    position: relative;
+    top:-3px;
+}
+
+.header .BookBox span {
+    font-size:var(--font-size-18);
+    color: var(--basic-dark-color);
+}
+
+.header .BookBox {
+    margin-top:35px;
+
+}
+
+.header .InfoBox img {
+    width:20px;
+    height: 20px;
+}
+
+.header .InfoBox {
+    margin-top:100px;
+}
+
+.header .InfoBox ul li a span {
+    font-size:var(--font-size-16);
+    color: var(--basic-thin-color);
+}
+
+.header .InfoBox ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.header .InfoBox ul li {
+    margin-bottom: 30px;
+}
+
+.header .InfoBox ul li:last-child {
+    margin-bottom: 0;
+}
+
