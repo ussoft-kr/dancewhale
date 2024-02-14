@@ -103,3 +103,152 @@
     justify-content: center;
 }
 
+.RoomItem {
+
+}
+
+.RoomItem .imgbox img {
+    width:98%;
+}
+
+.RoomItem .infobox {
+    text-align: center;
+    margin-top:25px;
+}
+
+.RoomItem .infobox h5 {
+    font-size: var(--font-size-18);
+    color: var(--basic-thin-color);
+}
+.RoomItem .infobox p {
+    margin-bottom: 13px;
+    color: #a09f9f;
+    font-size:var(--font-size-14);
+}
+
+.RoomItem .infobox a {
+    display: inline-block;
+    font-size: var(--font-size-13);
+    color: #a09f9f;
+    border-bottom: solid 2px #a09f9f;
+    padding: 0 10px 10px;
+}
+
+.MainRoomBox {
+    padding-bottom: 120px;
+}
+
+.pointbox .textbox {
+    background: #f6f6f6;
+    padding: 170px;
+    height: 100%;
+}
+
+.pointbox .imgbox img {
+    width:100%;
+}
+
+.pointbox .linespan {
+    width:95px;
+    height: 1px;
+    display: inline-block;
+    background: #7f7f7f;
+}
+
+.pointbox .shottitle {
+    display: block;
+    font-size:33px;
+    color: #333;
+    margin-top:35px;
+}
+
+.pointbox h2 {
+    font-size:98px;
+    font-weight: var(--font-weight-bold);
+    color: var(--basic-personal-color);
+    margin-top:85px;
+}
+
+.pointbox h2 span {
+    color: #333;
+    display: block;
+    text-align: right;
+    position: relative;
+    right:130px;
+    top:-30px;
+}
+
+.pointbox .title {
+    font-size:21px;
+    color: #333;
+    display: block;
+    margin-top: 75px;
+}
+
+.pointbox p {
+    font-size:var(--font-size-16);
+    color: #333;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.pointbox .morebox {
+    margin-top: 75px;
+}
+
+.pointbox .morebox img {
+    width:91px;
+    height: 8px;
+    position: relative;
+    top:-3px;
+
+}
+
+
+
+.pointbox .morebox a {
+    background: #333;
+    padding: 13px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 250px;
+    height: 53px;
+}
+
+.pointbox .morebox a:hover img {
+    animation: slideRight 1s infinite;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.pointbox .morebox a span {
+    color: var(--basic-white-color);
+}
+
+.facilitiesbox .imgbox img {
+    width:100%;
+}
+
+.facilitiesbox .imgbox p {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: var(--font-size-18);
+    color: var(--basic-thin-color);
+}
+
+.MainWrap {
+    padding-bottom: 380px;
+}

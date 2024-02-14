@@ -106,3 +106,14 @@ ul {
   --font-weight-bold : bold;
 
 }
+
+.slick-dots {
+  bottom:-50px !important;
+}
+
+@media(min-width: 1400px) {
+  #footer .container {
+    max-width:1530px;
+  }
+}
+

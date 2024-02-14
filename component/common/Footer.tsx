@@ -4,10 +4,10 @@ import styles from '@/styles/Layout.module.css';
 
 function Footer(){
     return(
-        <footer>
+        <footer className={styles.footer} id={'footer'}>
             <Container>
                 <Row>
-                    <Col xl={9} xs={12}>
+                    <Col xl={8} xs={12}>
                         <div className={styles.leftfooterbox}>
                             <span className={'sult'}>예약문의</span>
                             <h6 className={'sult'}>010-5639-7259</h6>
@@ -20,9 +20,9 @@ function Footer(){
                             </ul>
                         </div>
                     </Col>
-                    <Col xl={3} xs={12}>
+                    <Col xl={4} xs={12} className={'align-self-end'}>
                         <div className={styles.rightfooterbox}>
-                            <p className={'sult'}>Copyright (C) 2024 춤추는고래펜션. All Right Reserved.</p>
+                            <p className={'sult mb-0'}>Copyright (C) 2024 춤추는고래펜션. All Right Reserved.</p>
                         </div>
                     </Col>
                 </Row>

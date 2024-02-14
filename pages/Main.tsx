@@ -130,12 +130,13 @@ const Main: NextPage = () => {
             <div className={styles.pointbox}>
                 <Container fluid>
                     <Row>
-                        <Col xl={6} xs={12}>
+                        <Col xl={6} xs={12} className={'p-0'}>
                             <div className={styles.textbox}>
                                 <span className={styles.linespan}></span>
+                                <span className={`${styles.shottitle} sult`}>Special Point</span>
                                 <h2 className={'bsb'}>
                                     Ocean View<br />
-                                    <span>Pension</span>
+                                    <span className={'bsb'}>Pension</span>
                                 </h2>
                                 <span className={styles.title}>오션뷰 펜션</span>
                                 <p>
@@ -154,8 +155,10 @@ const Main: NextPage = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={6} xs={12}>
-                            <Image src={'/main/oceanview.jpg'} alt={'main-img'} />
+                        <Col xl={6} xs={12} className={'p-0'}>
+                            <div className={styles.imgbox}>
+                                <Image src={'/main/oceanview.jpg'} alt={'main-img'} />
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -164,7 +167,7 @@ const Main: NextPage = () => {
                 <MainContentHeader h3title={'Facilities'} ptitle={'춤추는 고래펜션에서 즐길 수 있는 다양한 부대시설'} spantitle={'View all facilities'} />
                 <Container fluid>
                     <Row>
-                        <Col xl={6} xs={12}>
+                        <Col xl={6} xs={12} className={'ps-0'}>
                             <div className={styles.imgbox}>
                                 <Link href={'#'}>
                                     <Image src={'/main/facilities_barbecu_area.jpg'} alt={'main-img'} />
@@ -172,7 +175,7 @@ const Main: NextPage = () => {
                                 </Link>
                             </div>
                         </Col>
-                        <Col xl={6} xs={12}>
+                        <Col xl={6} xs={12} className={'pe-0'}>
                             <div className={styles.imgbox}>
                                 <Link href={'#'}>
                                     <Image src={'/main/facilities_rooftop.jpg'} alt={'main-img'}/>
