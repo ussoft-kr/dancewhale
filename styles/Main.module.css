@@ -3,3 +3,103 @@
 .MainSlideBox img {
     width:100%;
 }
+
+.MainSlideBox .Slide1 .slide1caption {
+    top:5%;
+    left: 5%;
+    text-align: left;
+}
+
+.MainSlideBox .Slide1 .slide1caption h3 {
+    font-size:60px;
+    letter-spacing: -1px;
+    line-height: 65px;
+}
+
+.MainSlideBox .Slide1 .slide1caption p {
+    font-size:var(--font-size-16);
+    margin-top:20px;
+}
+
+.MainSlideBox .Slide2 .slide2caption {
+    top:47%;
+    left: 5%;
+    text-align: left;
+}
+
+.MainSlideBox .Slide2 .slide2caption h3 {
+    font-size:28px;
+    letter-spacing: -1px;
+    line-height: 38px;
+}
+
+.MainSlideBox .Slide2 .slide2caption p {
+    margin-top:45px;
+}
+
+.MainContentHeader {
+    margin-top:125px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.MainContentHeader .smallspan {
+    font-size:var(--font-size-16);
+    color: #898989;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.MainContentHeader .linespan {
+    width:150px;
+    height: 1px;
+    display: inline-block;
+    background: #c6c6c6;
+}
+
+.MainContentHeader h3 {
+    font-size:68px;
+    color: #484649;
+    margin-top:15px;
+    margin-bottom: 0;
+}
+
+.MainContentHeader h3 b {
+    color: var(--basic-personal-color);
+}
+
+.MainContentHeader p {
+    font-size:var(--font-size-16);
+    color: #6c6a6d;
+}
+
+.MainContentHeader button {
+    background-color: transparent !important;
+    border:solid 1px var(--basic-personal-color);
+    width:145px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 0;
+
+}
+
+.MainContentHeader button img {
+    width:5px;
+    height: 5px;
+    position: relative;
+    top:-1px;
+}
+
+.MainContentHeader button span {
+    font-size: var(--font-size-12);
+    color: var(--basic-personal-color);
+}
+
+.MainContentHeader button a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+

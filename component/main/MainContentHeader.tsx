@@ -11,19 +11,25 @@ export interface MainContentHeaderProps {
 }
 
 function MainContentHeader(props : MainContentHeaderProps) {
+
+    const ColorTopFont = props.h3title.charAt(0);
+    const ColorSecondFonT = props.h3title.slice(1);
+
+
     return (
         <div className={styles.MainContentHeader}>
-            <span className={'${styles.smallspan} sult'}>
+            <span className={`${styles.smallspan} sult`}>
                 춤추는 고래펜션
             </span>
+            <span className={styles.linespan}></span>
             <h3 className={'bsb'}>
-                {props.h3title}
+                <b>{ColorTopFont}</b>{ColorSecondFonT}
             </h3>
             <p>
                 {props.ptitle}
             </p>
             <div className={styles.MoreButtonBox}>
-                <Button>
+                <Button type={'button'}>
                     <Link href={'#'}>
                         <span className={styles.imgspan}>
                             <Image src={'/main/plus.svg'} alt={'main-icon'} />

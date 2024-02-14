@@ -28,14 +28,14 @@ const Main: NextPage = () => {
                 <Carousel fade indicators={false} controls={false} interval={3000}>
                     <Carousel.Item className={styles.Slide1}>
                         <Image src={'/main/main_img01.jpg'} alt={'main-img'} />
-                        <Carousel.Caption>
-                            <h3 className={'bsb'}>편안하게 힐링 할 수 있는 곳,</h3>
+                        <Carousel.Caption className={styles.slide1caption}>
+                            <h3 className={'bsb'}>편안하게<br />힐링 할 수 있는 곳,</h3>
                             <p>소중한 사람들과 함께 삶의 쉼표가 필요할 때<br />이곳으로 오세요.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className={styles.Slide2}>
                         <Image src={'/main/main_img02.jpg'} alt={'main-img'} />
-                        <Carousel.Caption>
+                        <Carousel.Caption className={styles.slide2caption}>
                             <h3 className={'sult'}>연인과의 기념일,<br />친구들과의 뜻있는 여행,<br />아이들과의 멋진 추억</h3>
                             <p className={'sult'}>
                                 아름다운 울산의 바다풍경과 자연의 빛으로 가득 채워진<br />
