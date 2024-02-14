@@ -14,7 +14,7 @@ function Header(){
                 <div className={styles.MenuBox}>
                     <ul>
                         <li>
-                            <Link href={'#'}>
+                            <Link href={'/intro'}>
                                 펜션소개
                             </Link>
                         </li>
