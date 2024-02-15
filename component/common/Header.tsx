@@ -1,5 +1,5 @@
 import styles from '@/styles/Layout.module.css';
-import {Button, Container, Image} from "react-bootstrap";
+import {Button, Image} from "react-bootstrap";
 import Link from "next/link";
 
 function Header(){
@@ -19,7 +19,7 @@ function Header(){
                             </Link>
                         </li>
                         <li>
-                            <Link href={'#'}>
+                            <Link href={'/room'}>
                                 객실보기
                             </Link>
                         </li>
