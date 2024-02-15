@@ -105,6 +105,10 @@ ul {
   --font-weight-normal : normal;
   --font-weight-bold : bold;
 
+  --letter-spacing-small : -0.5px;
+  --letter-spacing-medium : -1px;
+  --letter-spacing-large : -2px;
+
 }
 
 .slick-dots {

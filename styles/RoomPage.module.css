@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+
+.roompagewrap {
+    padding-bottom: 380px;
+}
+
+.RoomHeader img {
+    width:100%;
+}
+
+.RoomHeader {
+    position: relative;
+}
+
+.RoomHeader h2 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:60px;
+    color: var(--basic-white-color);
+    letter-spacing: var(--letter-spacing-medium);
+    font-weight: 500;
+}
+
+.roomheaderinfo {
+    margin-top:80px;
+}
+
+.roomheaderinfo .imgbox img {
+    width:100%;
+}
+
+.roomheaderinfo .infobox span {
+    color: var(--basic-personal-color);
+    font-size:22px;
+    font-weight: 400;
+}
+
+.roomheaderinfo .infobox h3 {
+    font-size:43px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.roomheaderinfo .infobox .linespan {
+    width:90px;
+    height: 2px;
+    background: #c8c8c8;
+    display: inline-block;
+}
+.roomheaderinfo .infobox strong {
+    display: block;
+    color: var(--basic-personal-color);
+    font-size:26px;
+    margin-top: 15px;
+}
+
+.roomheaderinfo .infobox ul {
+    margin-top: 15px;
+    position: relative;
+}
+
+.roomheaderinfo .infobox ul li {
+    color: #6c6a6d;
+    font-size: var(--font-size-16);
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.roomheaderinfo .infobox ul li:before {
+    content:'';
+    width:4px;
+    height: 4px;
+    background: var(--basic-personal-color);
+    position: absolute;
+    margin-top: 13px;
+    margin-left: -10px;
+}
+
+.roomheaderinfo .infobox .rebox {
+    background: var(--basic-personal-color);
+    width:280px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 11px 0;
+}
+
+.roomheaderinfo .infobox .rebox img {
+    width:18px;
+    height: 18px;
+    margin-right: 10px;
+    margin-top:-1px;
+}
+
+.roomheaderinfo .infobox .rebox span {
+    color: var(--basic-white-color);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-bold);
+}
+
+.roomheaderinfo .infobox .rebox a {
+    display: block;
+}
+
+.roominfomation {
+    margin-top:70px;
+}
