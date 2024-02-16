@@ -49,7 +49,7 @@ const Main: NextPage = () => {
                 </Carousel>
             </div>
             <div className={styles.MainRoomBox}>
-                <MainContentHeader h3title={'Rooms Preview'} ptitle={'춤추는 고래펜션의 객실을 소개합니다.'} spantitle={'Reservation'} />
+                <MainContentHeader h3title={'Rooms Preview'} ptitle={'춤추는 고래펜션의 객실을 소개합니다.'} spantitle={'Reservation'} href={'/room'} />
                 <div className={styles.MainRoomSlideBox}>
                     <Slider {...settings}>
                         <div className={styles.RoomItem}>
@@ -58,8 +58,8 @@ const Main: NextPage = () => {
                             </div>
                             <div className={styles.infobox}>
                                 <h5>301</h5>
-                                <p>기준 2인 / 최대 4인</p>
-                                <Link href={'#'}>
+                                <p>기준 4인 / 최대 4인</p>
+                                <Link href={'/room/room301'}>
                                     <span>MORE VIEW</span>
                                 </Link>
                             </div>
@@ -71,7 +71,7 @@ const Main: NextPage = () => {
                             <div className={styles.infobox}>
                                 <h5>302</h5>
                                 <p>기준 2인 / 최대 4인</p>
-                                <Link href={'#'}>
+                                <Link href={'/room/room302'}>
                                     <span>MORE VIEW</span>
                                 </Link>
                             </div>
@@ -82,8 +82,8 @@ const Main: NextPage = () => {
                             </div>
                             <div className={styles.infobox}>
                                 <h5>303</h5>
-                                <p>기준 2인 / 최대 4인</p>
-                                <Link href={'#'}>
+                                <p>기준 6인 / 최대 10인</p>
+                                <Link href={'/room/room303'}>
                                     <span>MORE VIEW</span>
                                 </Link>
                             </div>
@@ -94,8 +94,8 @@ const Main: NextPage = () => {
                             </div>
                             <div className={styles.infobox}>
                                 <h5>401</h5>
-                                <p>기준 2인 / 최대 4인</p>
-                                <Link href={'#'}>
+                                <p>기준 4인 / 최대 4인</p>
+                                <Link href={'/room/room401'}>
                                     <span>MORE VIEW</span>
                                 </Link>
                             </div>
@@ -106,8 +106,8 @@ const Main: NextPage = () => {
                             </div>
                             <div className={styles.infobox}>
                                 <h5>402</h5>
-                                <p>기준 2인 / 최대 4인</p>
-                                <Link href={'#'}>
+                                <p>기준 4인 / 최대 4인</p>
+                                <Link href={'/room/room402'}>
                                     <span>MORE VIEW</span>
                                 </Link>
                             </div>
@@ -118,8 +118,8 @@ const Main: NextPage = () => {
                             </div>
                             <div className={styles.infobox}>
                                 <h5>별채(독채)</h5>
-                                <p>기준 2인 / 최대 4인</p>
-                                <Link href={'#'}>
+                                <p>기준 8인 / 최대 20인</p>
+                                <Link href={'/room/roometc'}>
                                     <span>MORE VIEW</span>
                                 </Link>
                             </div>
@@ -144,7 +144,7 @@ const Main: NextPage = () => {
                                     자연이 깃든 쉼을 사랑하는 사람과 함께 누려보세요.
                                 </p>
                                 <div className={styles.morebox}>
-                                    <Link href={'#'}>
+                                    <Link href={'/service'}>
                                         <span className={styles.txtspan}>
                                             Learn more
                                         </span>
@@ -164,7 +164,7 @@ const Main: NextPage = () => {
                 </Container>
             </div>
             <div className={styles.facilitiesbox}>
-                <MainContentHeader h3title={'Facilities'} ptitle={'춤추는 고래펜션에서 즐길 수 있는 다양한 부대시설'} spantitle={'View all facilities'} />
+                <MainContentHeader h3title={'Facilities'} ptitle={'춤추는 고래펜션에서 즐길 수 있는 다양한 부대시설'} spantitle={'View all facilities'} href={'/service'} />
                 <Container fluid>
                     <Row>
                         <Col xl={6} xs={12} className={'ps-0'}>

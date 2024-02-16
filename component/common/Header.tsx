@@ -70,7 +70,7 @@ function Header(){
                             </Link>
                         </li>
                         <li>
-                            <Link href={'#'}>
+                            <Link href={'/reservation'}>
                                 예약안내
                             </Link>
                         </li>

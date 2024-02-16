@@ -8,6 +8,7 @@ export interface MainContentHeaderProps {
     h3title : string;
     ptitle : string;
     spantitle : string;
+    href : string;
 }
 
 function MainContentHeader(props : MainContentHeaderProps) {
@@ -30,7 +31,7 @@ function MainContentHeader(props : MainContentHeaderProps) {
             </p>
             <div className={styles.MoreButtonBox}>
                 <Button type={'button'}>
-                    <Link href={'#'}>
+                    <Link href={props.href}>
                         <span className={styles.imgspan}>
                             <Image src={'/main/plus.svg'} alt={'main-icon'} />
                         </span>
