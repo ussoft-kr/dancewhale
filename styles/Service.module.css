@@ -70,3 +70,32 @@
     width:100%;
 }
 
+.contentbox span {
+    font-size:22px;
+    color: var(--basic-personal-color);
+}
+
+.contentbox h4 {
+    font-size:43px;
+    font-weight: var(--font-weight-bold);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.contentbox .linespan {
+    background: #c8c8c8;
+    width:90px;
+    height: 2px;
+    display: inline-block;
+}
+
+.contentbox p {
+    font-size:var(--font-size-16);
+    color: #6c6a6d;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.contentbox .infobox {
+
+}

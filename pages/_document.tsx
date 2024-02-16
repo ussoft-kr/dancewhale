@@ -7,6 +7,7 @@ export default function Document() {
             <link
                 href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap"
                 rel="stylesheet"/>
+            <link rel="icon" href="data:;base64,iVBORw0KGgo="/>
         </Head>
         <body>
         <Main/>
