@@ -108,3 +108,85 @@
 .roominfomation {
     margin-top:70px;
 }
+
+.roominfomation h4 {
+    font-size:38px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.roominfomation dl {
+    position: relative;
+    border-bottom:solid 1px #dcdcdc;
+    padding-bottom: 25px;
+}
+
+.roominfomation dl dt {
+    font-size:var(--font-size-16);
+    color:var(--basic-personal-color);
+    margin-bottom: 15px;
+}
+
+.roominfomation dl dd {
+    color: #6c6a6d;
+    font-size:var(--font-size-16);
+    margin-bottom: 0;
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.roominfomation dl dd:before {
+    width:4px;
+    height: 4px;
+    content:'';
+    position: absolute;
+    background: var(--basic-personal-color);
+    top:51px;
+    left:1px;
+}
+
+.roomcomposition {
+    margin-top:25px;
+}
+
+.roomcomposition .roomtitle {
+    font-size:var(--font-size-16);
+    color:var(--basic-personal-color);
+    margin-bottom: 15px;
+    font-weight: var(--font-weight-bold);
+    display: block;
+}
+
+.roomcomposition .infobox {
+    border:solid 1px #c8c8c8;
+    padding: 20px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.roomcomposition .infobox img {
+    width:80px;
+    height: 80px;
+}
+
+.roomcomposition .infobox strong {
+    color: #6c6a6d;
+    font-size:var(--font-size-16);
+}
+
+.roomcomposition .infobox span {
+    color: #6c6a6d;
+    font-size:var(--font-size-16);
+    font-weight: 400;
+}
+
+.bottombox {
+    margin-top:70px;
+}
+
+.bottombox img {
+    width:100%;
+}
