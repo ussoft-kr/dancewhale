@@ -66,6 +66,7 @@
 .header .accbtn button:not(.collapsed) {
     background-color: transparent;
     border-color: transparent;
+    box-shadow: none !important;
 }
 
 .header .accbtn button:focus {
