@@ -191,3 +191,129 @@
 .Wrap {
     position: relative;
 }
+
+@media (max-width:1199px) {
+    .ContentWrap {
+        padding-left: 0;
+    }
+    .footer {
+        position: unset;
+    }
+    .mobilelogo img {
+        max-width:200px;
+    }
+    .offbutton {
+        background-color: transparent !important;
+        border:0 !important;
+        box-shadow: none !important;
+    }
+    .offbutton svg {
+        color: #222;
+        width:40px;
+        height: 40px;
+    }
+    .mooffcanvas {
+        width:90% !important;
+    }
+
+    .mooffcanvas .headeraccitem dl {
+        padding: 30px 15px 0;
+        margin-bottom: 0;
+    }
+
+    .mooffcanvas .headeraccitem dl dd {
+        margin-bottom: 20px;
+    }
+
+    .mooffcanvas .headeraccbody {
+        padding: 0;
+    }
+
+    .mooffcanvas .headeraccitem dl dd:last-child {
+        margin-bottom: 0;
+    }
+
+    .mooffcanvas .headeraccitem dl dd a {
+        font-size: var(--font-size-15);
+        color: #888 !important;
+    }
+
+    .mooffcanvas .accbtn button {
+        padding: 0;
+        font-size:var(--font-size-18);
+        color: var(--basic-dark-color);
+    }
+
+    .mooffcanvas .accbtn button:not(.collapsed) {
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none !important;
+    }
+
+    .mooffcanvas .accbtn button:focus {
+        box-shadow: none !important;
+    }
+
+    .header .accbtn button:after {
+
+    }
+
+    .mooffcanvas .headeraccitem {
+        border:0;
+    }
+
+    .mooffcanvas .moooffbody {
+        padding: 25px;
+    }
+    .mooffcanvas ul li a {
+        font-size:var(--font-size-18);
+        color: var(--basic-dark-color);
+        display: block;
+        transition: all 0.2s ease-in;
+    }
+
+    .mooffcanvas ul li a:hover {
+        color: var(--basic-personal-color) !important;
+    }
+
+    .mooffcanvas ul li {
+        margin-bottom: 35px;
+    }
+
+    .mooffcanvas ul li:last-child {
+        margin-bottom: 0;
+    }
+    .mooffcanvas .mooffheader {
+        border-bottom:solid 1px #ddd;
+    }
+    .moorebox {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .moorebox .rebtn {
+        background: var(--basic-personal-color) !important;
+        margin-right: 20px;
+    }
+    .moorebox button {
+        border:0 !important;
+        padding: 0;
+        width:45%;
+        height: 50px;
+    }
+    .moorebox button a {
+        color: var(--basic-white-color) !important;
+    }
+    .moorebox .tellbtn {
+        background: #6c6a6d !important;
+    }
+    .footer .rightfooterbox p {
+        text-align: center;
+        margin-top:30px;
+    }
+}
+
+@media (max-width:459px) {
+    .mobilelogo img {
+        max-width:150px;
+    }
+}

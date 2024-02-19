@@ -20,6 +20,15 @@ const Main: NextPage = () => {
         autoplay : true,
         autoplaySpeed : 4000,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     return (
@@ -134,13 +143,16 @@ const Main: NextPage = () => {
                             <div className={styles.textbox}>
                                 <span className={styles.linespan}></span>
                                 <span className={`${styles.shottitle} sult`}>Special Point</span>
+                                <div className={`${styles.imgbox} d-block d-xl-none`}>
+                                    <Image src={'/main/oceanview.jpg'} alt={'main-img'}/>
+                                </div>
                                 <h2 className={'bsb'}>
-                                    Ocean View<br />
+                                    Ocean View<br/>
                                     <span className={'bsb'}>Pension</span>
                                 </h2>
                                 <span className={styles.title}>오션뷰 펜션</span>
                                 <p>
-                                    동해의 탁 트인 푸른바다를 한 눈에 담을 수 있는 춤추는 고래펜션<br />
+                                    동해의 탁 트인 푸른바다를 한 눈에 담을 수 있는 춤추는 고래펜션 <br/>
                                     자연이 깃든 쉼을 사랑하는 사람과 함께 누려보세요.
                                 </p>
                                 <div className={styles.morebox}>
@@ -149,15 +161,15 @@ const Main: NextPage = () => {
                                             Learn more
                                         </span>
                                         <span className={styles.imgspan}>
-                                            <Image src={'/main/learn_more.svg'} alt={'main-icon'} />
+                                            <Image src={'/main/learn_more.svg'} alt={'main-icon'}/>
                                         </span>
                                     </Link>
                                 </div>
                             </div>
                         </Col>
-                        <Col xl={6} xs={12} className={'p-0'}>
+                        <Col xl={6} xs={12} className={'p-0 d-none d-xl-block'}>
                             <div className={styles.imgbox}>
-                                <Image src={'/main/oceanview.jpg'} alt={'main-img'} />
+                            <Image src={'/main/oceanview.jpg'} alt={'main-img'} />
                             </div>
                         </Col>
                     </Row>
@@ -166,21 +178,32 @@ const Main: NextPage = () => {
             <div className={styles.facilitiesbox}>
                 <MainContentHeader h3title={'Facilities'} ptitle={'춤추는 고래펜션에서 즐길 수 있는 다양한 부대시설'} spantitle={'View all facilities'} href={'/service'} />
                 <Container fluid>
-                    <Row>
+                    <Row className={'d-none d-xl-flex'}>
                         <Col xl={6} xs={12} className={'ps-0'}>
                             <div className={styles.imgbox}>
-                                <Link href={'#'}>
-                                    <Image src={'/main/facilities_barbecu_area.jpg'} alt={'main-img'} />
-                                    <p>야외 바베큐장</p>
-                                </Link>
+                                <Image src={'/main/facilities_barbecu_area.jpg'} alt={'main-img'} />
+                                <p>야외 바베큐장</p>
                             </div>
                         </Col>
                         <Col xl={6} xs={12} className={'pe-0'}>
                             <div className={styles.imgbox}>
-                                <Link href={'#'}>
-                                    <Image src={'/main/facilities_rooftop.jpg'} alt={'main-img'}/>
-                                    <p>루프탑</p>
-                                </Link>
+                                <Image src={'/main/facilities_rooftop.jpg'} alt={'main-img'}/>
+                                <p>루프탑</p>
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <Row className={'d-flex d-xl-none gy-5'}>
+                        <Col xl={6} xs={12}>
+                            <div className={styles.imgbox}>
+                                <Image src={'/main/facilities_barbecu_area.jpg'} alt={'main-img'} />
+                                <p>야외 바베큐장</p>
+                            </div>
+                        </Col>
+                        <Col xl={6} xs={12}>
+                            <div className={styles.imgbox}>
+                                <Image src={'/main/facilities_rooftop.jpg'} alt={'main-img'}/>
+                                <p>루프탑</p>
                             </div>
                         </Col>
                     </Row>

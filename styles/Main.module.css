@@ -252,3 +252,52 @@
 .MainWrap {
     padding-bottom: 380px;
 }
+
+@media (max-width:1199px) {
+    .pointbox .textbox {
+        padding: 15px;
+    }
+    .MainWrap {
+        padding-bottom: 50px;
+    }
+    .pointbox h2 span {
+        position: unset;
+        text-align: center;
+    }
+    .pointbox h2 {
+        font-size:70px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .pointbox .morebox {
+        text-align: center;
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+    .pointbox .morebox a {
+        margin: 0 auto;
+    }
+    .pointbox .title {
+        margin-top:30px;
+    }
+    .pointbox p {
+        margin-top:10px;
+    }
+    .pointbox p br {
+        display: none;
+    }
+    .pointbox .shottitle {
+        margin-top:10px;
+        margin-bottom: 40px;
+    }
+    .facilitiescolbox {
+
+    }
+}
+
+@media (max-width:500px) {
+    .RoomItem .imgbox img {
+        width:100%;
+    }
+
+}

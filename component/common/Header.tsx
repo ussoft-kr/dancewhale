@@ -1,11 +1,12 @@
 import styles from '@/styles/Layout.module.css';
-import {Accordion, Button, Image} from "react-bootstrap";
+import {Accordion, Button, Container, Image, Nav, Navbar} from "react-bootstrap";
 import Link from "next/link";
+import Offcanvas from "@/component/common/Offcanvas";
 
 function Header(){
     return(
         <header className={styles.header} id={'header'}>
-            <aside className={styles.aside}>
+            <aside className={`${styles.aside} d-none d-xl-block`}>
                 <div className={styles.LogoBox}>
                     <Link href={'/'}>
                     <Image src={'/main/logo.png'} alt={'logo-img'} />
@@ -106,6 +107,18 @@ function Header(){
                     </ul>
                 </div>
             </aside>
+            <Navbar className={`${styles.monav} d-block d-xl-none`}>
+                <Container fluid>
+                    <Navbar.Brand className={styles.mobilelogo}>
+                        <Link href={'/'}>
+                            <Image src={'/main/logo.png'} alt={'logo-img'} />
+                        </Link>
+                    </Navbar.Brand>
+                    <Nav>
+                        <Offcanvas />
+                    </Nav>
+                </Container>
+            </Navbar>
         </header>
     )
 }
