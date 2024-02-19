@@ -139,7 +139,11 @@
 
 .header .InfoBox ul li {
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
 }
+
 
 .header .InfoBox ul li:last-child {
     margin-bottom: 0;

@@ -88,24 +88,20 @@ function Header(){
                 <div className={styles.InfoBox}>
                     <ul>
                         <li>
-                            <Link href={'#'}>
                             <span className={styles.ImgSpan}>
                                 <Image src={'/main/left_tel.svg'} alt={'main-icon'}/>
                             </span>
                                 <span className={styles.TxtSpan}>
                                 010.5639.7259
                             </span>
-                            </Link>
                         </li>
                         <li>
-                            <Link href={'#'}>
                             <span className={styles.ImgSpan}>
                                 <Image src={'/main/left_account.svg'} alt={'main-icon'}/>
                             </span>
                                 <span className={styles.TxtSpan}>
                                 농협 302-0904-0213-11<br/>(예금주 : 석명신)
                             </span>
-                            </Link>
                         </li>
                     </ul>
                 </div>
