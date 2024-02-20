@@ -302,11 +302,16 @@
     }
 }
 
-
+@media (min-width:600px) {
+    .MainSlideBox .Slide2 .slide2caption {
+        top:20px;
+    }
+}
 
 @media (max-width:500px) {
     .RoomItem .imgbox img {
         width:100%;
     }
+
 
 }

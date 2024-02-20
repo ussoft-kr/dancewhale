@@ -33,7 +33,7 @@ const Main: NextPage = () => {
 
     return (
         <div className={styles.MainWrap}>
-            <div className={styles.MainSlideBox}>
+            <div className={`${styles.MainSlideBox} d-none d-sm-block`}>
                 <Carousel fade indicators={false} controls={false} interval={3000}>
                     <Carousel.Item className={styles.Slide1}>
                         <Image src={'/main/main_img01.jpg'} alt={'main-img'} />
@@ -54,6 +54,16 @@ const Main: NextPage = () => {
                                 한 장면을 만들어 드리겠습니다.
                             </p>
                         </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+            <div className={`${styles.MainSlideBox} d-block d-sm-none`}>
+                <Carousel fade indicators={false} controls={false} interval={3000}>
+                    <Carousel.Item className={styles.Slide1}>
+                        <Image src={'/mo/mo_main_img01.jpg'} alt={'main-img'} />
+                    </Carousel.Item>
+                    <Carousel.Item className={styles.Slide2}>
+                        <Image src={'/mo/mo_main_img02.jpg'} alt={'main-img'} />
                     </Carousel.Item>
                 </Carousel>
             </div>
