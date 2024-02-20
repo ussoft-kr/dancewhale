@@ -12,11 +12,11 @@
     z-index: 2;
     height: 100%;
     background-color: var(--basic-white-color);
-    padding:90px 65px;
+    padding:70px 65px;
 }
 
 .header .MenuBox {
-    margin-top:130px;
+    margin-top:90px;
 }
 
 .header .MenuBox ul li a {
@@ -123,7 +123,7 @@
 }
 
 .header .InfoBox {
-    margin-top:100px;
+    margin-top:70px;
 }
 
 .header .InfoBox ul li a span {

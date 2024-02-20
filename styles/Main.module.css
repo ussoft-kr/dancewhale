@@ -253,6 +253,13 @@
     padding-bottom: 380px;
 }
 
+
+@media (max-width: 1920px) {
+    .pointbox .textbox {
+        padding: 100px;
+    }
+}
+
 @media (max-width:1199px) {
     .pointbox .textbox {
         padding: 15px;
@@ -294,6 +301,8 @@
 
     }
 }
+
+
 
 @media (max-width:500px) {
     .RoomItem .imgbox img {
