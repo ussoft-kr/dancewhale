@@ -34,12 +34,12 @@ const Service:NextPage = () => {
                         <div className={styles.contentbox}>
                          <Container fluid>
                             <Row className={'gy-5 d-none d-xl-flex'}>
-                                <Col xl={9} xs={12}>
+                                <Col xl={8} xs={12}>
                                     <div className={styles.imgbox}>
                                         <Image src={'/sub/service_img02.jpg'} alt={'sub-img'} />
                                     </div>
                                 </Col>
-                                <Col xl={3} xs={12} className={'align-self-center ps-4'}>
+                                <Col xl={4} xs={12} className={'align-self-center ps-4'}>
                                     <div className={styles.infobox}>
                                         <span className={'sult'}>4th floor terrace barbecue area</span>
                                         <h4 className={'sult'}>4층 테라스 바베큐장</h4>
@@ -50,7 +50,7 @@ const Service:NextPage = () => {
                                         </p>
                                     </div>
                                 </Col>
-                                <Col xl={3} xs={12} className={'align-self-center'}>
+                                <Col xl={4} xs={12} className={'align-self-center'}>
                                     <div className={styles.infobox}>
                                         <span className={'sult'}>5th floor ocean observatory</span>
                                         <h4 className={'sult'}>5층 바다전망대</h4>
@@ -61,17 +61,17 @@ const Service:NextPage = () => {
                                         </p>
                                     </div>
                                 </Col>
-                                <Col xl={9} xs={12}>
+                                <Col xl={8} xs={12}>
                                     <div className={styles.imgbox}>
                                         <Image src={'/sub/service_img03.jpg'} alt={'sub-img'} />
                                     </div>
                                 </Col>
-                                <Col xl={9} xs={12}>
+                                <Col xl={8} xs={12}>
                                     <div className={styles.imgbox}>
                                         <Image src={'/sub/service_img04.jpg'} alt={'sub-img'} />
                                     </div>
                                 </Col>
-                                <Col xl={3} xs={12} className={'align-self-center ps-4'}>
+                                <Col xl={4} xs={12} className={'align-self-center ps-4'}>
                                     <div className={styles.infobox}>
                                         <span className={'sult'}>Beach in front the pension</span>
                                         <h4 className={'sult'}>펜션앞 바닷가</h4>

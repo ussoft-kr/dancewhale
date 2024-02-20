@@ -12,6 +12,8 @@ interface RoomInfo {
 interface RoomInfomationProps {
     article : string;
     roomInfos : RoomInfo[];
+    className? : string;
+
 }
 
 function RoomInfomation(props : RoomInfomationProps) {
@@ -36,7 +38,7 @@ function RoomInfomation(props : RoomInfomationProps) {
                     <span className={styles.roomtitle}>객실 구성</span>
                     <Row>
                         {props.roomInfos.map((info, index) => (
-                            <Col key={index} xl={12 / props.roomInfos.length} xs={12}>
+                            <Col key={index} xl={12 / props.roomInfos.length} xs={12} className={props.className}>
                                 <div className={styles.infobox}>
                                     <Image src={info.iconSrc} alt={'sub-icon'} />
                                     <strong>{info.type}</strong>

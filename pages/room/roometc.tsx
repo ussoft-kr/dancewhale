@@ -22,6 +22,7 @@ const Roometc:NextPage = () => {
                         {type : "온돌", detail : "이불세트 2", iconSrc : "/sub/icon_bedding.svg"},
                         {type : "욕실", detail : "욕실 1", iconSrc: "/sub/icon_bathroom.svg"},
                     ]}
+                    className={styles.etcroomcol}
                      />
                 <div className={styles.bottombox}>
                     <Container fluid>

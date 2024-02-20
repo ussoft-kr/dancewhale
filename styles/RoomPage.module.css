@@ -191,6 +191,9 @@
     width:100%;
 }
 
+.etcroomcol .infobox {
+    padding: 20px 30px;
+}
 
 @media (max-width: 1199px) {
     .roomheaderinfo {
