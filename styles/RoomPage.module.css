@@ -190,3 +190,35 @@
 .bottombox img {
     width:100%;
 }
+
+
+@media (max-width: 1199px) {
+    .roomheaderinfo {
+        margin-bottom: 60px;
+    }
+    .roompagewrap {
+        padding-bottom: 60px;
+    }
+    .roomheaderinfo .infobox {
+        margin-bottom: 50px;
+    }
+    .roomheaderinfo .infobox .rebox {
+        margin: 0 auto;
+    }
+    .roomheaderinfo .infobox ul {
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .RoomHeader h2 {
+        font-size:30px;
+    }
+    .roomcomposition .infobox {
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .roominfomation dl dd br {
+        display: none;
+    }
+}

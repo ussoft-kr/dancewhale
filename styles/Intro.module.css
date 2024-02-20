@@ -171,6 +171,40 @@
     .section3 {
         padding: 0 12px;
     }
+    .introwrap {
+        padding-bottom: 60px;
+    }
+
+    .section1 .txtbox {
+        margin-top:80px;
+    }
+
+    .section1 .txtbox h3 {
+        font-size:40px;
+        letter-spacing: -1px;
+        line-height: 42px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .section1 .txtbox h3 span {
+        color: var(--basic-personal-color);
+    }
+
+    .section1 .txtbox p {
+        font-size: var(--font-size-16);
+        color: var(--basic-dark-color);
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .section2 .imgbox {
+        margin-bottom: 40px;
+    }
+
+    .section3 .contentheader p br {
+        display: none;
+    }
 }
 
 @media (max-width:500px) {

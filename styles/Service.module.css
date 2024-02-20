@@ -99,3 +99,12 @@
 .contentbox .infobox {
 
 }
+
+@media (max-width: 1199px) {
+    .servicewrap {
+        padding-bottom: 60px;
+    }
+    .contentbox h4 {
+        font-size:39px;
+    }
+}

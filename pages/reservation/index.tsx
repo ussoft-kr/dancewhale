@@ -45,11 +45,17 @@ const Reservation:NextPage = () => {
                                                 <li>
                                                     <strong>예약전화 :</strong> 010-5639-7259
                                                 </li>
-                                                <li>
+                                                <li className={'d-none d-xl-block'}>
                                                     <strong>예약계좌 :</strong> 농협 302-0904-0213-11 (예금주 : 석명신)
                                                 </li>
-                                                <li>
+                                                <li className={'d-block d-xl-none'}>
+                                                    <strong>예약계좌 :</strong> 농협 302-0904-0213-11<br/>(예금주 : 석명신)
+                                                </li>
+                                                <li className={'d-none d-xl-block'}>
                                                     <strong>입·퇴실시간 :</strong> 입실 15:00 ~ 18:00 / 퇴실 익일 11:00
+                                                </li>
+                                                <li className={'d-block d-xl-none'}>
+                                                    <strong>입·퇴실시간 :</strong> 입실 15:00 ~ 18:00<br />퇴실 익일 11:00
                                                 </li>
                                             </ul>
                                         </div>

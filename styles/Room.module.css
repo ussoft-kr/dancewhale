@@ -109,3 +109,19 @@
     top:-1.5px;
 }
 
+
+@media (max-width: 1199px) {
+    .roomwrap {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contentheader .textbox {
+        display: none;
+    }
+    .contentbody .contentbodyheader p br {
+        display: none;
+    }
+
+}

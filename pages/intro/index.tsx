@@ -160,16 +160,19 @@ const Intro: NextPage = () => {
                                 <span className={styles.imgspan}>
                                     <Image src={'/sub/bus.svg'} alt={'sub-icon'}/>
                                 </span>
-                                    <span className={`${styles.textspan} sult`}>
+                                    <span className={`${styles.textspan} sult d-none d-xl-inline-block`}>
                                     411, 121 버스 탑승시 &quot;구암마을&quot; 에서 하차하시면 됩니다.
+                                </span>
+                                <span className={`${styles.textspan} sult d-inline-block d-xl-none`}>
+                                    411, 121 버스 탑승시 &quot;구암마을&quot; 에서<br />하차하시면 됩니다.
                                 </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
         </Layout>
-)
+    )
 }
 
 export default Intro
