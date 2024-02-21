@@ -48,7 +48,7 @@ const Intro: NextPage = () => {
                             </Col>
                             <Col xl={6} xs={12}>
                                 <div className={styles.imgbox}>
-                                    <Image src={'/sub/intro004.jpg'} alt={'sub-img'}/>
+                                    <Image src={'/sub/intro004.png'} alt={'sub-img'}/>
                                 </div>
                             </Col>
                         </Row>
@@ -65,7 +65,7 @@ const Intro: NextPage = () => {
                                 <Image src={'/sub/intro003.jpg'} alt={'sub-img'}/>
                             </div>
                             <div className={styles.item}>
-                                <Image src={'/sub/intro004.jpg'} alt={'sub-img'}/>
+                                <Image src={'/sub/intro004.png'} alt={'sub-img'}/>
                             </div>
                         </Slider>
                         <div className={styles.txtbox}>
